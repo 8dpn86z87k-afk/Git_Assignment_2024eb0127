@@ -1,0 +1,12 @@
+git init -b main	Creates the repository with main as the initial branch
+git status	Displays changes and staged files
+git add	Stages files for committing
+git commit -m	Saves a version in Git history
+git switch -c feature	Creates and switches to the feature branch
+git switch main	Returns to the main branch
+git merge --no-ff feature	Merges the feature branch with a merge commit
+git log	Displays previous commits
+git check-ignore	Checks whether files are ignored
+git revert	Reverses a commit while preserving history
+git remote add origin	Links the local repository to GitHub
+git push	Uploads commits to GitHub
